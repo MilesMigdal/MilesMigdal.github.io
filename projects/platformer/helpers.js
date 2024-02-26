@@ -645,6 +645,15 @@ function createProjectile(wallLocation, x, y, width, height) {
   projectiles[projectiles.length - 1].x -= (width - defaultProjectileWidth) / 2;
   projectiles[projectiles.length - 1].y -=
     (height - defaultProjectileHeight) / 2;
+  
+  // var i = projectiles.length;
+  // ctx.drawImage(
+  //   flashImage,
+  //   projectiles[i].x,
+  //   projectiles[i].y,
+  //   projectiles[i].width,
+  //   projectiles[i].height
+  // );
 }
 
 function keyboardControlActions() {
