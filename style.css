@@ -21,7 +21,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(255, 255, 255);
     flex: 1;
     margin: 0;
 }
@@ -34,12 +34,12 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: #fff;
+    color: #eeeeee;
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgb(255, 248, 230);
     display: flex;
     border-radius: 10px;
 }
@@ -56,10 +56,37 @@ main {
 }
 
 /* portfolio styles */
+.content h1 {
+    color: black;
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: rgb(138, 138, 138);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #434343;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #ffffff;
+}
 #interests {
     border: 4px silver ridge;
     padding: 8px;
 }
 h2, h3 {
     margin: 0px;
+}
+#text {
+    color: rgb(20, 0, 0);
 }
