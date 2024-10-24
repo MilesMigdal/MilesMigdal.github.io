@@ -97,4 +97,11 @@ var collectableList = {
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
   steve: { image: "images/collectables/steve-head.png" },
+  DragonBall1: { image: "images/collectables/DragonBall1.png"},
+  DragonBall2: { image: "images/collectables/DragonBall2.png"},
+  DragonBall3: { image: "images/collectables/DragonBall3.png"},
+  DragonBall4: { image: "images/collectables/DragonBall4.png"},
+  DragonBall5: { image: "images/collectables/DragonBall5.png"},
+  DragonBall6: { image: "images/collectables/DragonBall6.png"},
+  DragonBall7: { image: "images/collectables/DragonBall7.png"}
 };
