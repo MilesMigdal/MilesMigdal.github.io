@@ -1,6 +1,6 @@
 
 body {
-  background-color: rgb(243, 166, 57);
+  background-color: rgb(208, 198, 184);
 }
 
 #board {
@@ -24,7 +24,7 @@ body {
 }
 
 .snake {
-  background-color: rgb(255, 143, 7);
+  background-color: rgb(255, 196, 0);
   z-index: 2;
 }
 
