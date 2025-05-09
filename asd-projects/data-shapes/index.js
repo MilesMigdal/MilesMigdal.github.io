@@ -36,7 +36,7 @@ $(document).ready(function () {
   /////////////////////////////////////////////////
   // ALL OF YOUR CODE SHOULD GO BELOW HERE ////////
   /////////////////////////////////////////////////
- // TODO 0 complete//
+ // TODO 0 complete, YO I finished todo 0 //
   // TODO 1: create a new shape object and add it to the array
   
   var shape = {
@@ -46,7 +46,14 @@ $(document).ready(function () {
   };
 dataShapes.push(shape);
   // TODO 2: add a new property to all data shapes
-  
+
+  for (var i = 0; i < dataShapes.length; i = i + 1){
+    var currentShape = (dataShapes[i])
+    if (dataShapes[i].color === "red"){
+      dataShapes[i].goodBehavior = "bounce"
+    }
+    
+  }
 
 
   // TODO 3-a: add a function that handles the static display type
