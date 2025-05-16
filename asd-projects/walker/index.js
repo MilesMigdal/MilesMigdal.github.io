@@ -17,7 +17,13 @@ function runProgram() {
     DOWN: 40,
   };
 
-var walker = 
+var walker = {
+x : 0,
+y : 0,
+xSpeed: 0,
+ySpeed: 0,
+
+};
 
   // Game Item Objects
 
@@ -33,7 +39,10 @@ var walker =
   On each "tick" of the timer, a new frame is dynamically drawn using JavaScript
   by calling this function and executing the code inside.
   */
-  function newFrame() {}
+  function newFrame() {
+    reposistionGameitem()
+    redrawGameItem()
+  }
 
   /* 
   Called in response to events.
@@ -53,6 +62,17 @@ var walker =
   ////////////////////////////////////////////////////////////////////////////////
   ////////////////////////// HELPER FUNCTIONS ////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////////////
+
+function reposistionGameitem(){
+  walker.x += walker.xSpeed;
+}
+
+function redrawGameItem(){
+$("#walker").css("left", walker.x);
+
+}
+
+
 
   function endGame() {
     // stop the interval timer
